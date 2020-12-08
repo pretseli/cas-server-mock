@@ -17,10 +17,10 @@
   }]);
 
   casModule.config(['$routeProvider', function($routeProvider) {
-    $routeProvider.when('/login', {
-      templateUrl: 'components/login/login.html',
+    $routeProvider.when('/cas/login', {
+      templateUrl: 'cas/components/login/login.html',
       controller: 'LoginController'
-    }).otherwise('/login');
+    }).otherwise('/cas/login');
   }]);
 
 })();
